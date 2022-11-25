@@ -9,5 +9,9 @@ def getpdf(request):
     p.setFont("Times-Roman", 13)
     p.drawString(70, 780, "Hello, Shahed Mohammad Hridoy")
     p.showPage()
+    p.drawString(70, 780, "Hello, Shahed Mohammad Hridoy")
+    p.showPage()
+    p.drawString(70, 780, "Hello, Shahed Mohammad Hridoy")
+    p.showPage()
     p.save()
     return response
